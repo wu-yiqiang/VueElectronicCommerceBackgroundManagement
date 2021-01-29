@@ -11,6 +11,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -22,14 +23,53 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\windows\Project\vueelectroniccommercebackgroundmanagement\src\assets" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d30b59c-1f65-4f4f-be22-4086507c17cf" name="Default Changelist" comment="" />
+      <created>1611885789551</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611885789551</updated>
+      <workItem from="1611885793073" duration="345000" />
+      <workItem from="1611926854209" duration="502000" />
+      <workItem from="1611927377036" duration="1352000" />
+    </task>
+    <servers />
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="992" y="344" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611747173148">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="992" y="344" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1611747173148" />
+    <state x="1104" y="248" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611747056597">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="1104" y="248" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1611747056597" />
+    <state x="678" y="254" key="FileChooserDialogImpl" timestamp="1611880298178">
+      <screen x="0" y="39" width="1920" height="1041" />
+    </state>
+    <state x="678" y="254" key="FileChooserDialogImpl/0.39.1920.1041@0.39.1920.1041" timestamp="1611880298178" />
   </component>
 </project>
