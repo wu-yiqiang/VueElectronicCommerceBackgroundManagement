@@ -5,14 +5,19 @@
       <div class="logo-img">
         <img src="../assets/user2.jpg" alt="">
       </div>
-      <div class="input_frame">
-        <el-input  placeholder="请输入内容"></el-input>
-        <el-input  placeholder="请输入密码"></el-input>
+      <el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="200px" class="demo-ruleForm">
+        <el-form-item  props="ruleForm.username">
+          <el-input  placeholder="请输入内容"  prefix-icon="iconfont icon-user" ></el-input>
+        </el-form-item>
+        <el-form-item  props="ruleForm.password">
+          <el-input  placeholder="请输入密码"  prefix-icon="iconfont icon-lock_fill"></el-input>
+        </el-form-item>
+
         <div class="confirmbutton">
           <el-button >重置</el-button>
           <el-button type="primary">提交</el-button>
         </div>
-      </div>
+      </el-form>
     </div>
   </div>
 </template>
@@ -22,7 +27,18 @@
 <!--Js-->
 <script>
 export default  {
+  data(){
+    return {
+      ruleForm:{
+        username:"",
+        password:"",
+      },
+      //校验规则
+      rules:[
 
+      ]
+    }
+  }
 }
 </script>
 
@@ -42,6 +58,9 @@ export default  {
       position: absolute;
       left: 50%;
       top: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       transform: translate(-50%, -50%);
       .logo-img {
         width: 150px;
@@ -55,6 +74,20 @@ export default  {
           height: 100%;
           border-radius: 75px;
         }
+
+      }
+      .el-form{
+        width: 80%;
+        .el-input{
+          margin-top: 20px;
+        }
+        .confirmbutton{
+          display: flex;
+          justify-content: center;
+          .el-button{
+            margin-top: 20px;
+          }
+        }
       }
     }
   }
@@ -65,9 +98,7 @@ export default  {
   left:50%;
   transform: translate(-50%,-25%);
 
-  .el-input:nth-child(2){
-    margin-top: 20px;
-  }
+
   .confirmbutton{
     margin:0 auto;
     margin-top: 20px;

@@ -3,6 +3,8 @@ import App from './App.vue'
 import router from './router'
 import './plugins/element.js'
 
+//导入iconfont
+import "../src/assets/fonts/iconfont.css"
 
 //导入登录组件
 
