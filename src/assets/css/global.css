@@ -4,3 +4,41 @@ html,body,#app{
     margin: 0;
     padding: 0;
 }
+
+section {
+    height: 100%;
+}
+
+.el-header {
+    background-color: #373D41;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.el-aside {
+    background-color: #333744;
+    text-align: center;
+    line-height: 200px;
+}
+  
+.el-main {
+    background-color: red;
+    text-align: center;
+    line-height: 160px;
+}
+
+.exit-btn{
+    height: 45px;
+    background-color: #909399;
+}
+.titles {
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+}
+.logo-pic {
+    width: 90px;   
+}
+
