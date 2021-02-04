@@ -4,7 +4,7 @@
     <div class="login_box">
       <div class="logo-img">
         <img src="../assets/user2.jpg" alt="">
-      </div>
+      
       <el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="200px" class="demo-ruleForm">
         <el-form-item  props="ruleForm.username">
           <el-input  placeholder="请输入内容"  prefix-icon="iconfont icon-user" ></el-input>
@@ -18,7 +18,7 @@
           <el-button type="primary">提交</el-button>
         </div>
       </el-form>
-    </div>
+    
   </div>
 </template>
 
@@ -77,7 +77,7 @@ export default  {
 
       }
       .el-form{
-        width: 80%;
+        width: 100%;
         .el-input{
           margin-top: 20px;
         }
@@ -88,29 +88,28 @@ export default  {
             margin-top: 20px;
           }
         }
-      }
+        .input_frame {
+          position: absolute;
+          top: 50%;
+          left:50%;
+          transform: translate(-50%,-25%);
+          .confirmbutton{
+            margin:0 auto;
+            margin-top: 20px;
+          .el-button:nth-child(1){
+            float: left;
+          }
+          .el-button:nth-child(2){
+              float: right;
+            }
+          }
+
+        }
+     }
     }
   }
 
-.input_frame {
-  position: absolute;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%,-25%);
 
-
-  .confirmbutton{
-    margin:0 auto;
-    margin-top: 20px;
-  .el-button:nth-child(1){
-    float: left;
-  }
-  .el-button:nth-child(2){
-    float: right;
-  }
-  }
-
-  }
 
 
 
